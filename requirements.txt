@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+motor
+dependency-injector
+pymongo
+dotenv
+boto3
