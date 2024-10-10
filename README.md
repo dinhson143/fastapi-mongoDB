@@ -5,40 +5,40 @@
 * https://medium.com/@amirm.lavasani/how-to-structure-your-fastapi-projects-0219a6600a8f
 
 
-    ├── app  # Contains the main application files.
-    │   ├── __init__.py   # this file makes "app" a "Python package"
-    │   ├── main.py       # Initializes the FastAPI application.
-    │   ├── dependencies.py # Defines dependencies used by the routers
-    │   ├── routers
-    │   │   ├── __init__.py
-    │   │   ├── items.py  # Defines routes and endpoints related to items.
-    │   │   ├── book.py  # Defines routes and endpoints related to books.
-    │   │   └── author.py  # Defines routes and endpoints related to authors.
-    │   ├── crud
-    │   │   ├── __init__.py
-    │   │   ├── book.py  # Defines CRUD operations for books.
-    │   │   └──  author.py  # Defines CRUD operations for authors.
-    │   ├── schemas
-    │   │   ├── __init__.py
-    │   │   ├── book.py  # Defines schemas for books.
-    │   │   └──  author.py  # Defines schemas for authors.
-    │   ├── models
-    │   │   ├── __init__.py
-    │   │   ├── book.py  # Defines database models for books.
-    │   │   └──  author.py  # Defines database models for authors.
-    │   ├── external_services
-    │   │   ├── __init__.py
-    │   │   └──  aws.py          # Defines functions for s3_service.
-    │   └── utils
-    │       ├── __init__.py
-    │       └── book_enum.py  # Defines functions for authentication.
-    ├── tests
-    │   ├── __init__.py
-    │   ├── test_books.py  # Tests for the books module.
-    │   └── test_authors.py  # Tests for the authors module.
-    ├── requirements.txt
-    ├── .gitignore
-    └── README.md
+        ├── app  # Contains the main application files.
+        │   ├── __init__.py   # this file makes "app" a "Python package"
+        │   ├── main.py       # Initializes the FastAPI application.
+        │   ├── dependencies.py # Defines dependencies used by the routers
+        │   ├── routers
+        │   │   ├── __init__.py
+        │   │   ├── items.py  # Defines routes and endpoints related to items.
+        │   │   ├── book.py  # Defines routes and endpoints related to books.
+        │   │   └── author.py  # Defines routes and endpoints related to authors.
+        │   ├── crud
+        │   │   ├── __init__.py
+        │   │   ├── book.py  # Defines CRUD operations for books.
+        │   │   └──  author.py  # Defines CRUD operations for authors.
+        │   ├── schemas
+        │   │   ├── __init__.py
+        │   │   ├── book.py  # Defines schemas for books.
+        │   │   └──  author.py  # Defines schemas for authors.
+        │   ├── models
+        │   │   ├── __init__.py
+        │   │   ├── book.py  # Defines database models for books.
+        │   │   └──  author.py  # Defines database models for authors.
+        │   ├── external_services
+        │   │   ├── __init__.py
+        │   │   └──  aws.py          # Defines functions for s3_service.
+        │   └── utils
+        │       ├── __init__.py
+        │       └── book_enum.py  # Defines functions for authentication.
+        ├── tests
+        │   ├── __init__.py
+        │   ├── test_books.py  # Tests for the books module.
+        │   └── test_authors.py  # Tests for the authors module.
+        ├── requirements.txt
+        ├── .gitignore
+        └── README.md
 
 
 ## **Knowledge**
